@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- bootStrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- css link -->
+  <link rel="stylesheet" href="style.css">
+  <!-- JavaScriptLink -->
+  
+
+  <title>Hungry Monster</title>
+</head>
+
+<body>
+  <!-- start heading part  -->
+  <header>
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link " href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Recipes</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Blog</a>
+      </li>
+    </ul>
+  </header>
+  <!-- start Main body -->
+  <main>
+    <div>
+      <form class="col-md-4 m-auto py-5">
+        <div class="input-group mb-3">
+          <input id="mealName" type="text" class="form-control" placeholder="Search for meal">
+          <div class="input-group-append">
+            <button id="searchButton" type="button" class="btn btn-danger">Search</button>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div id="mealsfood">
+    </div>
+  </main>
+                  <!-- modal section  -->
+  <div id="modal" class="modal-dialog modal-sm">
+    <div id="modal2" class="modal-content">
+      <div class="ingredients" id="Ingredients">
+
+      </div>
+    </div>
+  </div>
+
+  <!-- <div id="Ingredients">
+           
+    </div> -->
+  <script src="/app.js"></script>
+</body>
+
+</html>

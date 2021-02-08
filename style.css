@@ -1,0 +1,57 @@
+ul li a{
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+a:hover{
+    color:black;
+    background-color:brown;
+    border-radius: 5px;
+    padding-top: 5px;
+}
+#mealsfood{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    grid-gap: 20px; 
+}
+.field{
+    border: 1px solid brown;
+    border-radius: 20px; 
+    padding: 20px;
+    text-align: center; 
+    display: block;
+}
+
+.field img{
+    width:100%;
+    height: auto;
+}
+#Ingredients h5{
+    text-align: center;
+    font-family: fantasy;
+}
+#Ingredients h4{
+    text-align: center;
+    font-family: fantasy;
+    padding-top: 5px;
+}
+
+#Ingredients img{
+    width: 100%;
+    border-radius: 10px;
+
+}
+#Ingredients {
+    background-color: rgb(190, 95, 95);
+    border: 1px solid brown;
+    border-radius: 10px;
+}
+#modal{
+    border-radius: 15px;
+    display: none;
+}
+#modal2{
+    border-radius: 10px;
+}
